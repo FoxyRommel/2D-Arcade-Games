@@ -1,0 +1,80 @@
+.Task1To3{
+    display: none;
+}
+
+.task4{
+    display: none;
+}
+
+.flag{
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+    display: none;;
+}
+
+.flag div{
+    height: 200px;
+}
+
+.flag .red{
+    background-color: red;
+    width: 200px;
+}
+
+.flag .green{
+    background-color: green;
+    width: 0px;
+}
+
+/* .cards{
+    display: flex;
+}
+
+.card{
+    height: 300px;
+    width: 150px;
+
+    border: 1px red solid;
+}
+
+.card img{
+    height: 300px;
+    width: 150px;
+}
+
+.card .face{
+    display: none;
+} */
+
+.child_photo{
+    display: flex;
+}
+
+.photo{
+    height: 300px;
+    border: 1px black solid;
+}
+
+.photo img{
+    height: 300px;
+}
+
+.photo .face{
+    display: none;
+}
+
+.template{
+    display: none;
+}
+
+.puschButton{
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content{
+    display: flex;
+}

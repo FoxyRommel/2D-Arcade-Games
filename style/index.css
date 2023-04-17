@@ -1,0 +1,48 @@
+html {
+    background: url('../images/background.gif') no-repeat; /* Задаём фон GIF-картинкой */
+    height: 100%; /* 100% высота страницы */
+    background-size: 100%;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: absolute;
+	top: 50%;
+	height: 240px;
+	margin-top: -120px; /* минус от половины высоты */
+    margin-left: 240px;
+}
+
+.current{
+    width: 500px;
+    height: 500px;
+    opacity: 50;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 3px;
+}
+
+.image-container img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.first:hover{
+    border: 10px solid rgb(255, 255, 255);
+    transition: all 2.1s;
+}
+
+.second:hover{
+    border: 10px solid rgb(255, 255, 255);
+    transition: all 2.1s;
+}
+
